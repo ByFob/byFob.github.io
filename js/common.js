@@ -56,14 +56,15 @@ $(document).ready(function() {
 	$(".skill_txt").animated("fadeInLeft","fadeOutUp");
 	$(".lable_star").animated("fadeInRight","fadeOutUp");
 	$(".owl-stage-outer").animated("fadeIn","bounceOut");
-
-
+	$(".section_form").animated("fadeInRight","fadeOutUp");
+	$(".sector_contact").animated("fadeInUp","fadeOutUp");
 
 
 
 	//Page2ID
 	$(".top_menu ul li a").mPageScroll2id();
-
+	$(".mousey a").mPageScroll2id();
+	
 
 
  	//MENU_toggle
