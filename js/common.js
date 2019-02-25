@@ -49,7 +49,6 @@ $(document).ready(function() {
 
 	//Animated
 	$(".top_text h1").animated("slideInDown","fadeOutUp");
-	$(".top_text p, .section_animated").animated("fadeInUp","fadeOutDown");
 	$(".about_foto img").animated("flipInY","fadeOutUp");
 	$(".about_text p").animated("fadeInLeft","fadeOutUp");
 	$(".str_name, .about_info ul li").animated("fadeInRight","fadeOutUp");
