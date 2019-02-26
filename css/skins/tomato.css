@@ -8,6 +8,9 @@ a {
     outline: none;
     border: none; }
 
+button:focus {
+  outline: none; }
+
 p,
 .main_footer {
   color: #888; }
