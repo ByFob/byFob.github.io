@@ -8,6 +8,9 @@ a {
     outline: none;
     border: none; }
 
+button:focus {
+  outline: none; }
+
 p,
 .main_footer {
   color: #888; }
@@ -80,7 +83,7 @@ body .owl-carousel .owl-nav button.owl-prev {
   color: #FF6347; }
 
 body .owl-carousel .owl-dot.active {
-  border: solid 4px #FF6347; }
+  background-color: #FF6347; }
 
 .btn {
   background-color: #FF6347; }

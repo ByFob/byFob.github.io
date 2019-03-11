@@ -7,7 +7,6 @@ body {
   line-height: 1.42857;
   -webkit-font-smoothing: antialised; }
 
-body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red; }
 
@@ -74,8 +73,7 @@ section {
   position: absolute; }
   .logo2 svg {
     height: 90px;
-    width: 90px;
-    position: relative; }
+    width: 90px; }
 
 .toggle_mnu {
   right: 20px;
@@ -91,7 +89,8 @@ section {
     height: 28px;
     margin-top: 20px;
     margin-left: 17px;
-    color: #222; }
+    color: #222;
+    cursor: pointer; }
     .toggle_mnu .toggle-mnu span:after, .toggle_mnu .toggle-mnu span:before {
       content: "";
       position: absolute;
@@ -166,6 +165,69 @@ section {
         -webkit-animation-delay: 0.8s;
         -moz-animation-delay: 0.8s;
         animation-delay: 0.8s; }
+      .top_wrapper .top_descr .top_text .scroll-downs {
+        position: absolute;
+        top: 132px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 34px;
+        height: 55px; }
+        .top_wrapper .top_descr .top_text .scroll-downs .mousey {
+          width: 3px;
+          padding: 10px 15px;
+          height: 35px;
+          border: 2px solid #fff;
+          border-radius: 25px;
+          opacity: 0.75;
+          -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+          .top_wrapper .top_descr .top_text .scroll-downs .mousey a {
+            width: 40px;
+            height: 55px;
+            position: absolute;
+            top: 0;
+            left: 0; }
+            .top_wrapper .top_descr .top_text .scroll-downs .mousey a:focus {
+              outline: none; }
+          .top_wrapper .top_descr .top_text .scroll-downs .mousey .scroller {
+            width: 3px;
+            height: 10px;
+            border-radius: 25%;
+            background-color: #fff;
+            -webkit-animation-name: scroll;
+            animation-name: scroll;
+            -webkit-animation-duration: 2.2s;
+            animation-duration: 2.2s;
+            -webkit-animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+            animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite; }
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 0; }
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    opacity: 0; } }
+
+@keyframes scroll {
+  0% {
+    opacity: 0; }
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+    opacity: 0; } }
 
 .top_menu {
   display: none;
@@ -355,7 +417,9 @@ body .owl-carousel button.owl-dot {
   left: -50px; }
 
 .section_form .s_form p {
-  width: 400px; }
+  width: 400px;
+  padding: 0 0 10px;
+  margin: 10px 0 0; }
 
 .section_form .s_form input {
   width: 400px;
@@ -375,21 +439,21 @@ body .owl-carousel button.owl-dot {
   text-transform: uppercase;
   padding: 10px 25px; }
 
-.sector_contact h3 {
-  text-transform: uppercase;
-  margin: 10px 0;
-  display: inline-block; }
-
-.sector_contact p {
-  width: 60%;
-  margin: 0; }
-
-.sector_contact .icon_contact {
-  font-size: 30px; }
-
-.sector_contact .ph_number {
-  font-family: "RalewayLight", sans-serif;
-  font-size: 16px; }
+.sector_contact {
+  text-align: center;
+  margin-top: 10px; }
+  .sector_contact h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block; }
+  .sector_contact p {
+    width: 100%;
+    margin: 0; }
+  .sector_contact .icon_contact {
+    font-size: 30px; }
+  .sector_contact .ph_number {
+    font-family: "RalewayLight", sans-serif;
+    font-size: 16px; }
 
 .main_footer p {
   display: inline-block; }
@@ -397,3 +461,6 @@ body .owl-carousel button.owl-dot {
 .main_footer .social_icon {
   display: inline-block;
   float: right; }
+
+#contacts .s_contacts {
+  background-image: url("img/bg.jpg"); }

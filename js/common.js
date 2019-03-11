@@ -7,6 +7,12 @@ $(document).ready(function() {
 
 	// Owl_Carousel //
 	$('.owl-carousel').owlCarousel({
+	animateOut: 'slideOutLeft',
+    animateIn: 'fadeIn',
+	autoplay:true,
+	autoplaySpeed:2500,
+	navigation : true,
+	autoplayHoverPause : true,
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -28,6 +34,7 @@ $(document).ready(function() {
         }
     }
 })
+
 
 
 	//Animated section "Skills "
