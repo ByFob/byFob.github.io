@@ -18,7 +18,7 @@ $(document).ready(function() {
     responsiveClass:true,
     responsive:{
         0:{
-            items:3,
+            items:1,
             nav:true
         },
         600:{

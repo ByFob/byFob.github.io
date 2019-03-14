@@ -113,7 +113,7 @@
 	}
 
 	#portfolio .s_descr {
-		margin-bottom: 100px;
+		margin-bottom: 85px;
 	}
 
 	.skill_txt {
@@ -123,6 +123,19 @@
 	.lable_star {
 		width: 200px;
 		margin-right: 0px;
+	}
+	.main_footer p {
+		margin-top: 18px;
+		font-size: 13px;
+		text-align: center;
+		display: block;
+		
+	}
+	.main_footer .social_icon {
+		text-align: center;
+		float: none;
+		display: block;
+		
 	}
 
 }
