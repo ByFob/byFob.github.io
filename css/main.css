@@ -43,13 +43,13 @@ section {
   width: 100%;
   z-index: 9999; }
   .loader .loader_inner {
-    background-image: url("../img/preloader.gif");
+    background-image: url("../img/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #fff;
-    height: 60px;
-    width: 60px;
+    height: 98px;
+    width: 105px;
     margin-top: -30px;
     margin-left: -30px;
     left: 50%;
