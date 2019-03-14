@@ -173,7 +173,7 @@ nodetypes="ssssssssssssssssssssssssssssssssscccsssscssssscsscscsscsssccccccccccc
 					<div class="about_text">
 						<p>Привет!
 							<br>Меня зовут Сергей, и я начинающий Front End разработчик. Мне 29 лет, закончил ХПКК получил специальность "Обслуживание компьютерных, интеллектуальных систем и сетей" специалист электроник, звучит угрожающи не правда ли?</p>
-						<p> Работал в сфере обслуживания мобильных телефонов, но в конце концов понял что, занимаюсь не своим делом, я хочу "творить", и вот уже как год само изучаю (javascript, html,css, php, о моих навыках расскажу чуть ниже). Ищу компанию, которая поможет дать "рывок" в нужное направление, очень хочу построить свою карьеру в этой сфере и приложу для этого все усилия.Что касается личных качеств, легко-обучаем, впишусь в любую команду, коммуникабельный, всегда довожу свои дела до конца, с чувством юмора и огромными планами на будущее. </p>
+						<p> Долго занимался обслуживанием мобильных телефонов, но в конце концов понял что, занимаюсь не своим делом, я хочу "творить", и вот уже как год само изучаю (javascript, html,css, php, о моих навыках расскажу чуть ниже). Ищу компанию, которая поможет дать "рывок" в нужное направление, очень хочу построить свою карьеру в этой сфере, и приложу для этого все усилия.Что касается личных качеств, легко-обучаем, впишусь в любую команду, коммуникабельный, всегда довожу свои дела до конца, с чувством юмора и огромными планами на будущее. </p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -310,11 +310,11 @@ nodetypes="ssssssssssssssssssssssssssssssssscccsssscssssscsscscsscsssccccccccccc
 			<div class="row">
 				<div class="col-md-12">
 					<div id="owl-demo" class="owl-carousel">
-						<div><a href="http://sad-mandarin.kh.ua/" target="_blank"><img src="img/portfolio-images/3.jpg" alt=""></a> </div>
-						<div><a href="http://health-in-germany.kh.ua/" target="_blank"><img src="img/portfolio-images/4.jpg" alt=""></a> </div>
-						<div><a href="https://byfob.github.io/ProCurs.github.io/" target="_blank"><img src="img/portfolio-images/2.jpg" alt=""></a> </div>
-						<div><a href="https://byfob.github.io/Autoservice.github.io/" target="_blank"><img src="img/portfolio-images/5.jpg" alt=""></a> </div>
-						<div><a href="https://byfob.github.io/Fortis.github.io/" target="_blank"><img src="img/portfolio-images/1.jpg" alt=""></a> </div>
+						<div><a href="http://sad-mandarin.kh.ua/" target="_blank"><img src="img/portfolio-images/1.jpg" alt=""></a> </div>
+						<div><a href="http://health-in-germany.kh.ua/" target="_blank"><img src="img/portfolio-images/2.jpg" alt=""></a> </div>
+						<div><a href="#"><img src="img/portfolio-images/3.jpg" alt=""></a> </div>
+						<div><a href="#"><img src="img/portfolio-images/4.jpg" alt=""></a> </div>
+						<div><a href="#"><img src="img/portfolio-images/5.jpg" alt=""></a> </div>
 					</div>
 				</div>
 			</div>
@@ -358,9 +358,9 @@ nodetypes="ssssssssssssssssssssssssssssssssscccsssscssssscsscscsscsssccccccccccc
 					<div class="section_form">
 						<form action="#" class="s_form">
 							<p>Ваше имя:</p>
-							<input type="text" class="form_label">
+							<input type="text" class="form_label" required>
 							<p>Ваш E-mail:</p>
-							<input type="text" class="form_label">
+							<input type="text" class="form_label" required>
 							<p>Ваше Сообщение:</p>
 							<textarea name="" id="" cols="47" rows="5" class="form_label"></textarea>
 							<div class="posotion_btn">
@@ -397,7 +397,13 @@ nodetypes="ssssssssssssssssssssssssssssssssscccsssscssssscsscscsscsssccccccccccc
 
 
 
-<div class="hidden"></div>
+<div class="hidden">
+	<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+</div>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
