@@ -116,7 +116,7 @@ $(document).ready(function() {
 	});
 
 	//E-mail Ajax Send
-	$(".s_form").submit(function() { //Change
+	$("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
