@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ac7d1a-d0a6-4015-b14a-8685da96b636" name="Default Changelist" comment="" />
+    <list default="true" id="60ac7d1a-d0a6-4015-b14a-8685da96b636" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/byFob.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/byFob.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,36 +18,141 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/yy2/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2482">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            <state relative-caret-position="63">
+              <caret line="388" column="58" lean-forward="true" selection-start-line="388" selection-start-column="58" selection-end-line="388" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common.js">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="268">
+              <caret line="423" column="29" lean-forward="true" selection-start-line="423" selection-start-column="29" selection-end-line="423" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>common</find>
+      <find>Начинаю</find>
+      <find>Портфоли</find>
+      <find>fab fa-github</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="60" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/yy2/vendor/codeception/specify" />
+      <path value="$PROJECT_DIR$/yy2/vendor/codeception/stub" />
+      <path value="$PROJECT_DIR$/yy2/vendor/codeception/verify" />
+      <path value="$PROJECT_DIR$/yy2/vendor/codeception/base" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-bootstrap" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-faker" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-composer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-debug" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-gii" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/yy2/vendor/yiisoft/yii2-swiftmailer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/yy2/vendor/behat/gherkin" />
+      <path value="$PROJECT_DIR$/yy2/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/yy2/vendor/composer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/yy2/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/yy2/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/yy2/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/yy2/vendor/bower-asset/punycode" />
+      <path value="$PROJECT_DIR$/yy2/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/yy2/vendor/bower-asset/yii2-pjax" />
+      <path value="$PROJECT_DIR$/yy2/vendor/bower-asset/bootstrap" />
+      <path value="$PROJECT_DIR$/yy2/vendor/bower-asset/jquery" />
+      <path value="$PROJECT_DIR$/yy2/vendor/bower-asset/inputmask" />
+      <path value="$PROJECT_DIR$/yy2/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/yy2/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/yy2/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/yy2/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/yy2/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/yy2/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/yy2/vendor/cebe/markdown" />
+      <path value="$PROJECT_DIR$/yy2/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/yy2/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/yy2/vendor/sebastian/object-enumerator" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="42" />
+    <option name="width" value="1498" />
+    <option name="height" value="656" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -55,6 +167,16 @@
             <path>
               <item name="byFob.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="byFob.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byFob.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byFob.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="byFob.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="byFob.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -89,18 +211,21 @@
       <updated>1552740181746</updated>
       <workItem from="1552740188143" duration="198000" />
       <workItem from="1553257368454" duration="74000" />
+      <workItem from="1557423089446" duration="3550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272000" />
+    <option name="totallyTimeSpent" value="3822000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
+    <frame x="82" y="42" width="1498" height="656" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21546261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2364395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -112,6 +237,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -121,17 +247,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common.js">
+    <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="388" column="58" lean-forward="true" selection-start-line="388" selection-start-column="58" selection-end-line="388" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="423" column="29" lean-forward="true" selection-start-line="423" selection-start-column="29" selection-end-line="423" selection-end-column="29" />
         </state>
       </provider>
     </entry>

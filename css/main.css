@@ -427,7 +427,8 @@ body .owl-carousel button.owl-dot {
   background-color: #A9A9A9; }
 
 .section_form .s_form textarea {
-  background-color: #A9A9A9; }
+  background-color: #A9A9A9;
+  width: 400px; }
 
 .section_form .s_form button {
   width: 170px; }

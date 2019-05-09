@@ -7,12 +7,9 @@ $(document).ready(function() {
 
 	// Owl_Carousel //
 	$('.owl-carousel').owlCarousel({
-	animateOut: 'slideOutLeft',
+	animateOut: 'fadeOut',
     animateIn: 'fadeIn',
-	autoplay:true,
-	autoplaySpeed:2500,
 	navigation : true,
-	autoplayHoverPause : true,
     loop:true,
     margin:10,
     responsiveClass:true,
