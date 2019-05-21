@@ -116,7 +116,7 @@ $(document).ready(function() {
 	});
 
 	//E-mail Ajax Send
-	$(".s_form").submit(function() { //Change
+	/*$(".s_form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
@@ -130,7 +130,7 @@ $(document).ready(function() {
 			}, 1000);
 		});
 		return false;
-	});
+	});*/
 
 });
 
