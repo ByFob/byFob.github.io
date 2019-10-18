@@ -5,6 +5,9 @@ $(document).ready(function() {
 		$(".loader").delay(400).fadeOut("slow"); 
 	});
 
+
+
+
 	// Owl_Carousel //
 	$('.owl-carousel').owlCarousel({
 	animateOut: 'fadeOut',
@@ -54,7 +57,7 @@ $(document).ready(function() {
 	//Animated
 	$(".top_text h1").animated("slideInDown","fadeOutUp");
 	$(".about_foto img").animated("flipInY","fadeOutUp");
-	$(".about_text p").animated("fadeInLeft","fadeOutUp");
+	 $(".about_text").animated("fadeInLeft","fadeOutUp");
 	$(".str_name, .about_info ul li").animated("fadeInRight","fadeOutUp");
 	$(".skill_txt").animated("fadeInLeft","fadeOutUp");
 	$(".lable_star").animated("fadeInRight","fadeOutUp");
@@ -128,6 +131,13 @@ $(document).ready(function() {
 		});
 		return false;
 	});*/
+
+
+//--------------------------
+		
+
+
+
 
 });
 

@@ -107,7 +107,7 @@ section {
       background-color: #fff;
       -webkit-transition: all 0.3s;
       -o-transition: all 0.3s;
-      transition: all 0.3s;
+      transition: all 0.3s ease-in-out;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       border-radius: 2px; }
@@ -377,8 +377,8 @@ section {
     height: 100%; }
 
 .owl-carousel .owl-item img {
-  max-height: 650px; }
-
+  /*max-height: 650px; }*/
+}
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   position: absolute;
@@ -473,6 +473,57 @@ body .owl-carousel button.owl-dot {
 .section_content {
   width: 90%;
   margin: 0 auto;
+}
+.tabs-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about_text label {
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+  background: #FF6347;
+  color: white;
+  padding: 10px 20px;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  &:last-of-type {
+    border-right: 0;
+  }
+}
+
+.about_text input {
+  display: none;
+}
+
+input[id="tab-1"]:checked ~ .tabs-wrapper .label-tab-1,
+input[id="tab-2"]:checked ~ .tabs-wrapper .label-tab-2,
+input[id="tab-3"]:checked ~ .tabs-wrapper .label-tab-3 {
+  background: white;
+  color: black;
+}
+
+.about_text .tab {
+  display: none;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 5px 5px 13px -6px rgba(0,0,0,0.29);
+  p {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+input[id="tab-1"]:checked ~ .tab-1,
+input[id="tab-2"]:checked ~ .tab-2,
+input[id="tab-3"]:checked ~ .tab-3 {
+  display: block;
 }
 
 
