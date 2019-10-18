@@ -319,10 +319,22 @@ section {
 .about_info ul,
 .main_footer ul {
   padding: 0; }
-  .about_info ul li,
-  .main_footer ul li {
+  .about_info .person_info li
+   {
     list-style-type: none;
-    padding-bottom: 15px; }
+    padding: 7px 0px;
+    height: 35px;
+    background-image: url(../img/desk.jpg);
+    margin-bottom: 10px;
+    text-align: center; 
+  }
+
+.about_info p,
+.about_title,
+.person_title,
+.social_icon {
+  text-align: center;
+}
 
 .about_info .social_icon ul,
 .main_footer .social_icon ul {
