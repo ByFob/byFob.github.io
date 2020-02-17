@@ -5,7 +5,7 @@
 	<title>Сергей Солодовников</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="shortcut icon" href="img/favicon.png" />
 	<link rel="stylesheet" href="libs/bootstap/bootstrap-grid.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -424,7 +424,7 @@ nodetypes="ssssssssssssssssssssssssssssssssscccsssscssssscsscscsscsssccccccccccc
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-					<p>&copy; 2019 Сергей Солодовников</p>
+					<p>&copy; <?php echo date("Y");?> Сергей Солодовников</p>
 					<div class="social_icon">
 						<ul>
 							<li><a href="viber://chat?number=+380639346755" class="social_wrap"><i class="fab fa-viber"></i></a></li>
