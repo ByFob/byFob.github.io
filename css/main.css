@@ -538,5 +538,6 @@ input[id="tab-3"]:checked ~ .tab-3 {
   display: block;
 }
 
-
+.s_about  { 
+background-image: url(../img/bg_2.png); }
 

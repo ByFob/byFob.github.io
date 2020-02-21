@@ -115,6 +115,14 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
+	// background_mouse_position
+
+	$(".main_head, .s_about").mousemove(function (e) {
+		var moveX = (e.pageX * -1 /80);
+		var moveY = (e.pageY * -1 /80);
+		$(this).css("background-position", moveX + "px " + moveY +"px");
+	});
+
 	//E-mail Ajax Send
 	/*$("form").submit(function() { //Change
 		var th = $(this);
