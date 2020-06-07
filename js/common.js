@@ -118,8 +118,8 @@ $(document).ready(function() {
 	// background_mouse_position
 
 	$(".main_head, .s_about").mousemove(function (e) {
-		var moveX = (e.pageX * -1 /80);
-		var moveY = (e.pageY * -1 /80);
+		var moveX = (e.pageX * -1 /1401);
+		var moveY = (e.pageY * -1 /25);
 		$(this).css("background-position", moveX + "px " + moveY +"px");
 	});
 
